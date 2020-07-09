@@ -1,0 +1,16 @@
+.container {
+    display: block;
+    justify-content: center;
+    width: 85%;
+}
+
+@media (max-width: 770px) {
+    .container   {
+        width: 85%;
+    }
+}
+@media (max-width: 360px) {
+    .container   {
+        width: 88%;
+      }
+}
